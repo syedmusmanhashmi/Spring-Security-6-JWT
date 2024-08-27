@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: SpringSecurityJwt
+  datasource:
+    url: jdbc:postgresql://localhost:5432/springsecurity
+    username: postgres
+    password: '0000'

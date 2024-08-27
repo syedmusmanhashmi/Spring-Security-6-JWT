@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
 
-@GetMapping("/")
+    @GetMapping("/")
     public String greet(HttpServletRequest request) {
-        return "Welcome to Developer "+request.getSession().getId();
+        return "Welcome to Developer " + request.getSession().getId();
     }
 
 }
